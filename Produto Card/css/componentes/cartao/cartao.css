@@ -1,0 +1,51 @@
+.cartao {
+    background-color: #FFF;
+    width: 480px;
+    height: 373px;
+    display: flex;
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: relative;
+    margin: auto;
+    margin-top: 8%;
+}
+
+.cartao__conteudo {
+    margin: 20px;
+}
+
+.cartao__titulo {
+    font-size: 28px;
+    font-family: 'Fraunces', serif;
+    color: #232323;
+    margin: 0;
+}
+
+.cartao__fonte-principal {
+    font-size: 12px;
+    color: rgb(135, 135, 135);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 1.2rem;
+}
+
+#perfume {
+    letter-spacing: .2rem;
+}
+
+@media (max-width: 500px) {
+  .cartao {
+    width: 290px;
+    height: 540px;
+    flex-direction: column;
+  }
+
+  .cartao__conteudo {
+    margin:  0 20px 0 20px;
+  }
+
+  #perfume {
+    margin-top: 16px;
+    letter-spacing: .3rem;
+  }
+}

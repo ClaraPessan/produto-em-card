@@ -1,0 +1,24 @@
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3B8268;
+    border: none;
+    border-radius: 8px;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#botao-adicionar:hover {
+    background-color: #194031;
+}
+
+span.material-symbols-outlined {
+    padding-right: 8px;
+    font-size: 20px;
+}

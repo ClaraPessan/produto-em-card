@@ -1,0 +1,13 @@
+li {
+    display: flex;
+    align-items: center;
+}
+
+#preco-atual {
+    color: #3B8268;
+}
+
+#preco {
+    text-decoration: line-through;
+    padding-left: 20px;
+}

@@ -1,0 +1,17 @@
+body {
+    background-color: #F3EAE3;
+}
+
+.imagem-chanel {
+    width: 240px;
+    height: 373px;
+    border-radius: 10px 0 0 10px;
+}
+
+@media (max-width: 500px) {
+    .imagem-chanel {
+      width: 290px;
+      height: 210px;
+      border-radius: 10px 10px 0 0;
+    }
+  }
